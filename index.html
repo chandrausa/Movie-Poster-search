@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Poster Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="searchInput" placeholder="Enter movie name...">
+        <button id="searchButton">Search</button>
+        <div id="suggestionsContainer" class="suggestions-container"></div>
+        <div id="result">
+            <div id="moviePostersContainer" class="movie-posters-container"></div>
+            <p id="noResultsMessage" style="display:none;">No titles found for the given query.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
